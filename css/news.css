@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+.news{
+  width: 100%;
+  margin-top: 150px;
+  display: inline-block;
+}
+
+.news_inner{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto 150px;
+}
+
+.news_main{
+  width: 70%;
+  margin-right: 15%;
+}
+
+.news_list li{
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.news_date{
+  width: 150px;
+  margin-right: 60px;
+}
+
+.news_category{
+  font-weight: bold;
+  padding: 2px 5px;
+  border: 1px solid #39b93f;
+}
+
+.news_ttl{
+  margin-left: 60px;
+}
+
+.news_side{
+  width: 25%;
+}
+
+.news_side_list{
+  margin-bottom: 100px;
+}
+
+.news_side_list p{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news_side_list li{
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 18px;
+  line-height: 1.7;
+}
+
+.news_side_list li::before{
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.contact{
+  position: relative;
+  width: 100%;
+  background: #eee;
+}
+
+.contact h3{
+  font-size: 50px;
+  color: #39b93f;
+  text-align: center;
+}
+
+.contact h3 small{
+  font-size: 20px;
+  color: #555;
+}
+
+.contact p{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contact .btn a{
+  text-align: center;
+  position: relative;
+  background: #39b93f;
+  padding: 20px 60px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.contact .btn a:hover{
+  background: #59dd3e;
+}
+
+footer{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.footer_inner{
+  display: inline-block;
+  position: relative;
+  margin-left: 200px;
+  z-index: 1;
+  top: 150px;
+}
+
+.footer_inner img{
+  width: 200px;
+}
+
+.footer_inner p{
+  width: 150px;
+  font-size: 10px;
+}
+
+.footer_bg{
+  width: 100%;
+  float: right;
+  height: 200px;
+  background-color: #eee;
+  position: relative;
+  z-index: 0;
+}
+
+.footer_list ul{
+  float: right;
+  z-index: 1;
+}
+
+.footer_list ul::after{
+  content: "";
+  position: absolute;
+  height: 200px;
+  border-left: 1px solid #ccc;
+  color: #555;
+  top: 0;
+}
+
+.footer_list ul li{
+  width: 200px;
+  padding: 20px 0 0 40px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.copyright{
+  float: right;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
