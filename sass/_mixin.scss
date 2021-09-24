@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@mixin btn($top:90px) {
+  a{
+      background: $Green;
+      padding: 20px 60px;
+      position: relative;
+      top: $top;
+      color: $White;
+      font-weight: bold;
+      border-radius: 15px;
+    }
+
+    a:hover{
+      background: $Green_hover;
+    }  
+}

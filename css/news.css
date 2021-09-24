@@ -93,17 +93,17 @@
   padding-top: 80px;
 }
 
-.contact .btn a{
-  text-align: center;
-  position: relative;
+.contact .btn a {
   background: #39b93f;
   padding: 20px 60px;
+  position: relative;
+  top: 15px;
   color: #fff;
   font-weight: bold;
   border-radius: 15px;
 }
 
-.contact .btn a:hover{
+.contact .btn a:hover {
   background: #59dd3e;
 }
 

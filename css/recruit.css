@@ -32,18 +32,21 @@
   width: 20%;
   border: solid 2px #316835;
   padding: 20px;
-  background: #fff56c;
+  background: #6ce768;
 }
 
 .price_inner table tr td{
   border: solid 2px #316835;
   padding: 20px;
-  background: #fffea8;
+  background: #d3fa96;
 }
 
 .contact{
   position: relative;
   width: 100%;
+}
+
+.contact_inner{
   background: #eee;
 }
 
@@ -65,17 +68,17 @@
   padding-top: 80px;
 }
 
-.contact .btn a{
-  text-align: center;
-  position: relative;
+.contact .btn a {
   background: #39b93f;
   padding: 20px 60px;
+  position: relative;
+  top: 15px;
   color: #fff;
   font-weight: bold;
   border-radius: 15px;
 }
 
-.contact .btn a:hover{
+.contact .btn a:hover {
   background: #59dd3e;
 }
 
